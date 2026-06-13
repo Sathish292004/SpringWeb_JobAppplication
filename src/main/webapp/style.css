@@ -192,3 +192,12 @@ select[multiple]{
      background-color: #f8f9fa;
      margin-bottom: 20px;
  }
+
+
+
+.navbar-nav .nav-link{
+    color:white !important;
+    font-size:20px;
+    font-weight:500;
+    margin-left:0 !important;
+}
