@@ -91,7 +91,7 @@ http://localhost:8080
 
 ## 👨‍💻 Author
 
-**Sathish Kumar**
+**Sathish Kumar B**
 
 Portfolio:
 https://portfolio-git-pub-sks-projects-df082d85.vercel.app/
