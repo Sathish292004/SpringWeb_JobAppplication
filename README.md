@@ -93,9 +93,6 @@ http://localhost:8080
 
 **Sathish Kumar B**
 
-Portfolio:
-https://portfolio-git-pub-sks-projects-df082d85.vercel.app/
-
 GitHub:
 https://github.com/Sathish292004
 
