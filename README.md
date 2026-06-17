@@ -1,7 +1,6 @@
 # 💼 SK Job Portal
 
-A modern Job Portal Web Application built using Spring Boot, JSP, Maven, and Bootstrap. This application allows users to view job opportunities and add new job postings through a simple and responsive interface.
-
+SK Job Portal is a web application built using Spring Boot, JSP, Maven, and Bootstrap. It allows users to view job opportunities, add new job postings, and explore job details through a responsive and user-friendly interface. The application follows the Spring MVC architecture (Controller → Service → Repository) and currently uses in-memory storage (ArrayList) to manage job data, making it ideal for learning and demonstrating Spring Boot web development concepts.
 ---
 
 ## 🚀 Features
