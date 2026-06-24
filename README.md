@@ -1,105 +1,126 @@
 # 💼 SK Job Portal
 
-SK Job Portal is a web application built using Spring Boot, JSP, Maven, and Bootstrap. Users can view job opportunities, add new job postings, and explore job details through a responsive and user-friendly interface. The project follows the Spring MVC architecture (Controller → Service → Repository) and uses in-memory storage (ArrayList) to manage job data. It is designed as a learning project to demonstrate Spring Boot web application development concepts.
+A simple **Job Portal web application** built with **Spring Boot**, **JSP**, **Maven**, and **Bootstrap**, allowing users to view job opportunities and add new job postings through a clean, responsive interface.
+
+🔗 **Live Demo:** [jobappplication.onrender.com](https://jobappplication.onrender.com/)
+
+---
+
+## 📖 About
+
+SK Job Portal is a learning project that demonstrates core **Spring Boot web application development** concepts. It follows the classic **Spring MVC architecture** (`Controller → Service → Repository`) and uses **in-memory storage** (`ArrayList`) to manage job data — no database required to get started.
 
 ---
 
 ## 🚀 Features
 
-* 🏠 Home Page
-* 📋 View All Job Listings
-* ➕ Add New Job Posts
-* 💼 View Job Details
-* 🎨 Responsive UI with Bootstrap
-* 🔧 Spring Boot MVC Architecture
-* 📦 Maven Project Structure
+- 🏠 Home page with overview
+- 📋 View all job listings
+- ➕ Add new job posts
+- 💼 View detailed job information
+- 🎨 Responsive UI styled with Bootstrap 5
+- 🔧 Clean Spring Boot MVC architecture
+- 📦 Standard Maven project structure
+- 🐳 Dockerfile included for containerized deployment
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend
-
-* Java 21
-* Spring Boot
-* Spring MVC
-
-### Frontend
-
-* JSP
-* HTML5
-* CSS3
-* Bootstrap 5
-
-### Build Tool
-
-* Maven
-
-### IDE
-
-* IntelliJ IDEA
-
-### Version Control
-
-* Git & GitHub
+| Layer | Technology |
+|---|---|
+| **Backend** | Java 21, Spring Boot, Spring MVC |
+| **Frontend** | JSP, HTML5, CSS3, Bootstrap 5 |
+| **Build Tool** | Maven |
+| **Containerization** | Docker |
+| **IDE** | IntelliJ IDEA |
+| **Version Control** | Git & GitHub |
 
 ---
 
+## 📂 Project Structure
 
-## ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/Sathish292004/SpringWeb_JobApplication.git
+```
+SpringWeb_JobApplication/
+├── .mvn/wrapper/        # Maven wrapper files
+├── src/                 # Java source code (controllers, services, models)
+├── web/WEB-INF/         # JSP views and web resources
+├── Dockerfile           # Container build configuration
+├── pom.xml              # Maven project configuration
+├── mvnw / mvnw.cmd       # Maven wrapper scripts
+└── README.md
 ```
 
-### Navigate to Project
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Java 21 (JDK)
+- Maven (or use the included Maven Wrapper)
+- Git
+
+### 1. Clone the repository
 
 ```bash
-cd SpringWeb_JobApplication
+git clone https://github.com/Sathish292004/SpringWeb_JobAppplication.git
 ```
 
-### Run Application
+### 2. Navigate to the project directory
+
+```bash
+cd SpringWeb_JobAppplication
+```
+
+### 3. Run the application
+
+Using Maven Wrapper:
+
+```bash
+./mvnw spring-boot:run
+```
+
+Or with Maven installed globally:
 
 ```bash
 mvn spring-boot:run
 ```
 
-Application will start on:
+### 4. Open in browser
 
-```text
+```
 http://localhost:8080
 ```
 
 ---
 
+## 🐳 Running with Docker
+
+Build and run the app in a container:
+
+```bash
+docker build -t sk-job-portal .
+docker run -p 8080:8080 sk-job-portal
+```
+
+Then visit `http://localhost:8080`.
+
+---
+
 ## 🌐 Live Demo
 
- Render Deployment --> [Link](https://portfolio-66fhkfj4o-sks-projects-df082d85.vercel.app/)
-
-
-![image](https://i.postimg.cc/NM4JGv8V/Screenshot-2026-06-13-182326.png)
-
-
-
-
-
-
+Check out the deployed app here: **[jobappplication.onrender.com](https://jobappplication.onrender.com/)**
 
 ---
 
 ## 👨‍💻 Author
 
 **Sathish Kumar B**
-
-GitHub:
-https://github.com/Sathish292004
-
-
+GitHub: [@Sathish292004](https://github.com/Sathish292004)
 
 ---
 
 ## 📜 License
 
-This project is created for learning purposes.
+This project was created for **learning purposes**. Feel free to fork and build on it.
