@@ -60,7 +60,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link"
-                       href="https://portfolio-git-pub-sks-projects-df082d85.vercel.app/"
+                       href="https://portfolio-kappa-five-qzgec8efpj.vercel.app/"
                        target="_blank">
                          Contact
                     </a>
